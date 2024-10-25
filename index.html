@@ -1,0 +1,974 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Icon photo -->
+    
+    <!-- Type Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;500;600;700;800;900&display=swap"
+    rel="stylesheet">
+    <!--Font Awesome Library-->
+    <link rel="stylesheet" href="css/all.min.css">
+    <!-- Tailwind Css -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!--render all elements in normalize-->
+    <link rel="stylesheet" href="css/normalize.css">
+    <!-- Components Css File -->
+    <link rel="stylesheet" href="css/components.css">
+    <!-- Main Css File -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Media Query Css File -->
+    <link rel="stylesheet" href="css/media.css">
+    <title>Games Website</title>
+</head>
+<body>
+    <!-- Strat Header -->
+    <header class="flex flex-col bg-white text-center px-10 z-10 relative w-full h-fit md:flex-row md:justify-between">
+        <div class="capitalize text-3xl font-bold p-4">
+            Games
+        </div>
+        <nav class="bg-white">
+            <ul>
+                <li class="capitalize text-sm text-gray-500 cursor-pointer p-6
+                hover:bg-gray-100 md:text-xl"><a href="#articles">articles</a></li>
+                <li class="capitalize text-sm text-gray-500 cursor-pointer p-6
+                hover:bg-gray-100 md:text-xl"><a href="#gallery">gallery</a></li>
+                <li class="capitalize text-sm text-gray-500 cursor-pointer p-6
+                hover:bg-gray-100 md:text-xl"><a href="#features">features</a></li>
+                <li class="capitalize text-sm text-gray-500 cursor-pointer p-6
+                hover:bg-gray-100 md:text-xl click">other links
+                <div class="megamenu none bg-white">
+                    <div class="image">
+                        <img src="images/megamenu.png" alt="megamenu photo">
+                    </div>
+                    <ul>
+                        <li>
+                            <i class="far fa-comments fa-fw"></i>
+                            <a href="#testimonials">testimonials</a>
+                        </li>
+                        <li>
+                            <i class="far fa-user fa-fw"></i>
+                            <a href="#team">team members</a>
+                        </li>
+                        <li>
+                            <i class="far fa-building fa-fw"></i>
+                            <a href="#services">services</a>
+                        </li>
+                        <li>
+                            <i class="far fa-check-circle fa-fw"></i>
+                            <a href="#skills">our skills</a>
+                        </li>
+                        <li>
+                            <i class="far fa-clipboard fa-fw"></i>
+                            <a href="#work">how it works</a>
+                        </li>
+                    </ul>
+                    <ul>
+                        <li>
+                            <i class="far fa-calendar-alt fa-fw"></i>
+                            <a href="#event">events</a>
+                        </li>
+                        <li>
+                            <i class="fas fa-server fa-fw"></i>
+                            <a href="#pricing">pricing plans</a>
+                        </li>
+                        <li>
+                            <i class="far fa-play-circle fa-fw"></i>
+                            <a href="#videos">top videos</a>
+                        </li>
+                        <li>
+                            <i class="far fa-chart-bar fa-fw"></i>
+                            <a href="#stats">stats</a>
+                        </li>
+                        <li>
+                            <i class="fas fa-percent fa-fw"></i>
+                            <a href="#discount">request a discount</a>
+                        </li>
+                    </ul>
+                </div>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <!-- End Header -->
+
+    <!-- Start Landing -->
+    <section class="landing mx-auto h-screen bg-white p-10 flex flex-col-reverse top-1/2 gap-5 justify-between items-center md:flex-row md:gap-0">
+        <div class="z-30 absolute top-1/2 md:w-full md:top-0 md:static">
+            <h2 class="text-black font-extrabold mb-2 text-3xl lg:text-4xl">Welcome, To Gaming World</h2>
+            <p class="text-gray-500 leading-loose text-xl lg:text-2xl">Here Iam gonna share everything about my life. Books Iam reading, Games Iam Playing, Stories and Events</p>
+        </div>
+        <img src="images/landing-image.png" alt="landing-image" class="hidden z-50 md:block">
+        <i class="fas fa-angle-double-down fa-2x absolute left-1/2 bottom-5"></i>
+    </section>
+    <!-- End Landing -->
+
+    <!-- Start Articles -->
+    <section class="articles bg-white mx-auto" id="articles">
+        <header class="main-heading">articles</header>
+        <div class="article-box flex flex-row flex-wrap mt-20 relative left-1/2 w-10/12">
+            <div class="box shadow-md hover:shadow-lg">
+                <img src="images/cat-01.jpg" alt="article photo">
+                <div class="text">
+                    <h2>test title</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reprehenderit</p>
+                </div>
+                <hr>
+                <div class="info">
+                    <h2>read more</h2>
+                    <i class="fas fa-arrow-right"></i>
+                </div>
+            </div>
+
+            <div class="box shadow-md">
+                <img src="images/cat-02.jpg" alt="article photo">
+                <div class="text">
+                    <h2>test title</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reprehenderit</p>
+                </div>
+                <hr>
+                <div class="info">
+                    <h2>read more</h2>
+                    <i class="fas fa-arrow-right"></i>
+                </div>
+            </div>
+
+            <div class="box shadow-md">
+                <img src="images/cat-03.jpg" alt="article photo">
+                <div class="text">
+                    <h2>test title</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reprehenderit</p>
+                </div>
+                <hr>
+                <div class="info">
+                    <h2>read more</h2>
+                    <i class="fas fa-arrow-right"></i>
+                </div>
+            </div>
+
+            <div class="box shadow-md">
+                <img src="images/cat-04.jpg" alt="article photo">
+                <div class="text">
+                    <h2>test title</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reprehenderit</p>
+                </div>
+                <hr>
+                <div class="info">
+                    <h2>read more</h2>
+                    <i class="fas fa-arrow-right"></i>
+                </div>
+            </div>
+
+            <div class="box shadow-md">
+                <img src="images/cat-05.jpg" alt="article photo">
+                <div class="text">
+                    <h2>test title</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reprehenderit</p>
+                </div>
+                <hr>
+                <div class="info">
+                    <h2>read more</h2>
+                    <i class="fas fa-arrow-right"></i>
+                </div>
+            </div>
+
+            <div class="box shadow-md">
+                <img src="images/cat-06.jpg" alt="article photo">
+                <div class="text">
+                    <h2>test title</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reprehenderit</p>
+                </div>
+                <hr>
+                <div class="info">
+                    <h2>read more</h2>
+                    <i class="fas fa-arrow-right"></i>
+                </div>
+            </div>
+
+            <div class="box shadow-md">
+                <img src="images/cat-07.jpg" alt="article photo">
+                <div class="text">
+                    <h2>test title</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reprehenderit</p>
+                </div>
+                <hr>
+                <div class="info">
+                    <h2>read more</h2>
+                    <i class="fas fa-arrow-right"></i>
+                </div>
+            </div>
+
+            <div class="box shadow-md">
+                <img src="images/cat-08.jpg" alt="article photo">
+                <div class="text">
+                    <h2>test title</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reprehenderit</p>
+                </div>
+                <hr>
+                <div class="info">
+                    <h2>read more</h2>
+                    <i class="fas fa-arrow-right"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Articles -->
+
+    <!-- Start Gallery -->
+    <section class="gallery clip mt-5" id="gallery">
+        <header class="main-heading">gallery</header>
+        <div class="gallery-box flex flex-row flex-wrap justify-between mt-20 relative left-1/2 w-full sm:w-10/12" id="iframe">
+            <div class="box">
+                <img src="images/gallery-01.png" alt="gallery photo">
+            </div>
+
+            <div class="box">
+                <img src="images/gallery-02.png" alt="gallery photo">
+            </div>
+
+            <div class="box">
+                <img src="images/gallery-03.jpg" alt="gallery photo">
+            </div>
+
+            <div class="box">
+                <img src="images/gallery-04.png" alt="gallery photo">
+            </div>
+
+            <div class="box">
+                <img src="images/gallery-05.jpg" alt="gallery photo">
+            </div>
+
+            <div class="box">
+                <img src="images/gallery-06.png" alt="gallery photo">
+            </div>
+        </div>
+    </section>
+    <!-- End Gallery -->
+
+    <!-- Start Features -->
+    <section class="features bg-white mx-auto w-full" id="features">
+        <header class="main-heading">features</header>
+        <div class="features-gallery flex flex-wrap justify-between mt-20 px-2 relative left-1/2 flex-row md:px-20">
+            <div class="box">
+                <div class="ph">
+                    <img src="images/features-01.jpg" alt="features photo">
+                </div>
+                <div class="up">
+                    <div class="text">
+                        <h2>quality</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing 
+                            elit. Odit harum hic veniam eligendi minima</p>
+                    </div>
+                    <button><span>more</span></button>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="ph">
+                    <img src="images/features-02.jpg" alt="features photo">
+                </div>
+                <div class="up">
+                    <div class="text">
+                        <h2>time</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing 
+                            elit. Odit harum hic veniam eligendi minima</p>
+                    </div>
+                    <button><span>more</span></button>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="ph">
+                    <img src="images/features-03.jpg" alt="features photo">
+                </div>
+                <div class="up">
+                    <div class="text">
+                        <h2>passion</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing 
+                            elit. Odit harum hic veniam eligendi minima</p>
+                    </div>
+                    <button><span>more</span></button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Features -->
+
+    <!-- Start Testimonials -->
+    <section class="testimonials" id="tesimonials">
+        <header class="main-heading">testimonials</header>
+        <div class="testimonials-box mt-20 p-4 flex flex-row flex-wrap justify-between gap-8 sm:px-16">
+            <div class="box rounded-md bg-white p-4 relative flex flex-col">
+                <img class="w-20 h-20 rounded-full block" src="images/avatar-01 (1).png" alt="avatar photo">
+                <h2 class="capitalize font-bold text-lg">mohamed farag</h2>
+                <h3 class="capitalize">full stack developer</h3>
+                <div class="icon">
+                    <i class="fas fa-star text-yellow-400"></i>
+                    <i class="fas fa-star text-yellow-400"></i>
+                    <i class="fas fa-star text-yellow-400"></i>
+                    <i class="fas fa-star text-yellow-400"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores et reiciendis voluptatum,
+                    amet est natus quaerat ducimus</p>
+            </div>
+
+            <div class="box rounded-md bg-white p-4 relative flex flex-col">
+                <img class="w-20 h-20 rounded-full block" src="images/avatar-02 (1).png" alt="avatar photo">
+                <h2 class="capitalize font-bold text-lg">mohamed ibrahim</h2>
+                <h3 class="capitalize">full stack developer</h3>
+                <div class="icon">
+                    <i class="fas fa-star text-yellow-400"></i>
+                    <i class="fas fa-star text-yellow-400"></i>
+                    <i class="fas fa-star text-yellow-400"></i>
+                    <i class="fas fa-star text-yellow-400"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores et reiciendis voluptatum,
+                    amet est natus quaerat ducimus</p>
+            </div>
+
+            <div class="box rounded-md bg-white p-4 relative flex flex-col">
+                <img class="w-20 h-20 rounded-full block" src="images/avatar-03 (1).png" alt="avatar photo">
+                <h2 class="capitalize font-bold text-lg">shady nabil</h2>
+                <h3 class="capitalize">full stack developer</h3>
+                <div class="icon">
+                    <i class="fas fa-star text-yellow-400"></i>
+                    <i class="fas fa-star text-yellow-400"></i>
+                    <i class="fas fa-star text-yellow-400"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores et reiciendis voluptatum,
+                    amet est natus quaerat ducimus</p>
+            </div>
+
+            <div class="box rounded-md bg-white p-4 relative flex flex-col">
+                <img class="w-20 h-20 rounded-full block" src="images/avatar-04.png" alt="avatar photo">
+                <h2 class="capitalize font-bold text-lg">amr hendawy</h2>
+                <h3 class="capitalize">full stack developer</h3>
+                <div class="icon">
+                    <i class="fas fa-star text-yellow-400"></i>
+                    <i class="fas fa-star text-yellow-400"></i>
+                    <i class="fas fa-star text-yellow-400"></i>
+                    <i class="fas fa-star text-yellow-400"></i>
+                    <i class="fas fa-star text-yellow-400"></i>
+                </div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores et reiciendis voluptatum,
+                    amet est natus quaerat ducimus</p>
+            </div>
+
+            <div class="box rounded-md bg-white p-4 relative flex flex-col">
+                <img class="w-20 h-20 rounded-full block" src="images/avatar-05.png" alt="avatar photo">
+                <h2 class="capitalize font-bold text-lg">sherief ashraf</h2>
+                <h3 class="capitalize">full stack developer</h3>
+                <div class="icon">
+                    <i class="fas fa-star text-yellow-400"></i>
+                    <i class="fas fa-star text-yellow-400"></i>
+                    <i class="fas fa-star text-yellow-400"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores et reiciendis voluptatum,
+                    amet est natus quaerat ducimus</p>
+            </div>
+
+            <div class="box rounded-md bg-white p-4 relative flex flex-col">
+                <img class="w-20 h-20 rounded-full block" src="images/avatar-06.png" alt="avatar photo">
+                <h2 class="capitalize font-bold text-lg">osama mohamed</h2>
+                <h3 class="capitalize">full stack developer</h3>
+                <div class="icon">
+                    <i class="fas fa-star text-yellow-400"></i>
+                    <i class="fas fa-star text-yellow-400"></i>
+                    <i class="fas fa-star text-yellow-400"></i>
+                    <i class="fas fa-star text-yellow-400"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores et reiciendis voluptatum,
+                    amet est natus quaerat ducimus</p>
+            </div>
+        </div>
+    </section>
+    <!-- End Testimonials -->
+
+    <!-- Start Team Members -->
+    <section class="team bg-white" id="team">
+        <div class="main-heading">team members</div>
+        <div class="members">
+            <div class="box flex flex-col p-6 pr-0">
+                <div class="info w-full flex items-center justify-start">
+                    <img src="images/team-01.jpg" alt="team member">
+                    <div class="icon flex flex-col">
+                        <i class="fab fa-facebook-f"></i>
+                        <i class="fab fa-twitter"></i>
+                        <i class="fab fa-linkedin-in"></i>
+                        <i class="fab fa-youtube"></i>
+                    </div>
+                </div>
+                <div class="text capitalize text-black mt-5 px-5">
+                    <h2>name</h2>
+                    <p>simple short description</p>
+                </div>
+            </div>
+
+            <div class="box flex flex-col p-6 pr-0">
+                <div class="info w-full flex items-center justify-start">
+                    <img src="images/team-02.jpg" alt="team member">
+                    <div class="icon flex flex-col">
+                        <i class="fab fa-facebook-f"></i>
+                        <i class="fab fa-twitter"></i>
+                        <i class="fab fa-linkedin-in"></i>
+                        <i class="fab fa-youtube"></i>
+                    </div>
+                </div>
+                <div class="text capitalize text-black mt-5 px-5">
+                    <h2>name</h2>
+                    <p>simple short description</p>
+                </div>
+            </div>
+
+            <div class="box flex flex-col p-6 pr-0">
+                <div class="info w-full flex items-center justify-start">
+                    <img src="images/team-03.jpg" alt="team member">
+                    <div class="icon flex flex-col">
+                        <i class="fab fa-facebook-f"></i>
+                        <i class="fab fa-twitter"></i>
+                        <i class="fab fa-linkedin-in"></i>
+                        <i class="fab fa-youtube"></i>
+                    </div>
+                </div>
+                <div class="text capitalize text-black mt-5 px-5">
+                    <h2>name</h2>
+                    <p>simple short description</p>
+                </div>
+            </div>
+
+            <div class="box flex flex-col p-6 pr-0">
+                <div class="info w-full flex items-center justify-start">
+                    <img src="images/team-04.jpg" alt="team member">
+                    <div class="icon flex flex-col">
+                        <i class="fab fa-facebook-f"></i>
+                        <i class="fab fa-twitter"></i>
+                        <i class="fab fa-linkedin-in"></i>
+                        <i class="fab fa-youtube"></i>
+                    </div>
+                </div>
+                <div class="text capitalize text-black mt-5 px-5">
+                    <h2>name</h2>
+                    <p>simple short description</p>
+                </div>
+            </div>
+
+            <div class="box flex flex-col p-6 pr-0">
+                <div class="info w-full flex items-center justify-start">
+                    <img src="images/team-05.png" alt="team member">
+                    <div class="icon flex flex-col">
+                        <i class="fab fa-facebook-f"></i>
+                        <i class="fab fa-twitter"></i>
+                        <i class="fab fa-linkedin-in"></i>
+                        <i class="fab fa-youtube"></i>
+                    </div>
+                </div>
+                <div class="text capitalize text-black mt-5 px-5">
+                    <h2>name</h2>
+                    <p>simple short description</p>
+                </div>
+            </div>
+
+            <div class="box flex flex-col p-6 pr-0">
+                <div class="info w-full flex items-center justify-start">
+                    <img src="images/team-06.png" alt="team member">
+                    <div class="icon flex flex-col">
+                        <i class="fab fa-facebook-f"></i>
+                        <i class="fab fa-twitter"></i>
+                        <i class="fab fa-linkedin-in"></i>
+                        <i class="fab fa-youtube"></i>
+                    </div>
+                </div>
+                <div class="text capitalize text-black mt-5 px-5">
+                    <h2>name</h2>
+                    <p>simple short description</p>
+                </div>
+            </div>
+
+            <div class="box flex flex-col p-6 pr-0">
+                <div class="info w-full flex items-center justify-start">
+                    <img src="images/team-07.jpg" alt="team member">
+                    <div class="icon flex flex-col">
+                        <i class="fab fa-facebook-f"></i>
+                        <i class="fab fa-twitter"></i>
+                        <i class="fab fa-linkedin-in"></i>
+                        <i class="fab fa-youtube"></i>
+                    </div>
+                </div>
+                <div class="text capitalize text-black mt-5 px-5">
+                    <h2>name</h2>
+                    <p>simple short description</p>
+                </div>
+            </div>
+
+            <div class="box flex flex-col p-6 pr-0">
+                <div class="info w-full flex items-center justify-start">
+                    <img src="images/team-08.jpg" alt="team member">
+                    <div class="icon flex flex-col">
+                        <i class="fab fa-facebook-f"></i>
+                        <i class="fab fa-twitter"></i>
+                        <i class="fab fa-linkedin-in"></i>
+                        <i class="fab fa-youtube"></i>
+                    </div>
+                </div>
+                <div class="text capitalize text-black mt-5 px-5">
+                    <h2>name</h2>
+                    <p>simple short description</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Team Members -->
+
+    <!-- Start Services -->
+    <section class="services clip mt-5" id="services">
+        <div class="main-heading">services</div>
+        <div class="contain flex gap-y-8 flex-wrap justify-between">
+            <div class="box flex flex-col items-center justify-center">
+                <i class="fas fa-user-lock"></i>
+                <h2>security</h2>
+                <div class="details">
+                    <a href="#">details</a>
+                </div>
+            </div>
+
+            <div class="box flex flex-col items-center justify-center">
+                <i class="fas fa-user-edit"></i>
+                <h2>fixing issues</h2>
+                <div class="details">
+                    <a href="#">details</a>
+                </div>
+            </div>
+
+            <div class="box flex flex-col items-center justify-center">
+                <i class="fas fa-search-location"></i>
+                <h2>location</h2>
+                <div class="details">
+                    <a href="#">details</a>
+                </div>
+            </div>
+
+            <div class="box flex flex-col items-center justify-center">
+                <i class="fas fa-code"></i>
+                <h2>coding</h2>
+                <div class="details">
+                    <a href="#">details</a>
+                </div>
+            </div>
+
+            <div class="box flex flex-col items-center justify-center">
+                <i class="fas fa-paint-brush"></i>
+                <h2>design</h2>
+                <div class="details">
+                    <a href="#">details</a>
+                </div>
+            </div>
+
+            <div class="box flex flex-col items-center justify-center">
+                <i class="fas fa-marker"></i>
+                <h2>marketing</h2>
+                <div class="details">
+                    <a href="#">details</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Services -->
+
+    <!-- Start Our Skills -->
+    <section class="our-skills" id="skills">
+        <div class="main-heading">our skills</div>
+        <div class="contain flex flex-row p-10">
+            <img src="images/skills.png" alt="skills photo">
+            <div class="skills flex flex-col justify-center items-center gap-12">
+                <div>
+                    <p>HTML</p>
+                    <span></span>
+                </div>
+                <div>
+                    <p>CSS</p>
+                    <span></span>
+                </div>
+                <div>
+                    <p>JavaScript</p>
+                    <span></span>
+                </div>
+                <div>
+                    <p>Python</p>
+                    <span></span>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Our Skills -->
+
+    <!-- Start Work -->
+    <section class="work" id="work">
+        <div class="main-heading">how it works ?</div>
+        <div class="contain flex flex-wrap justify-center items-center gap-10">
+            <img src="images/work-steps.png" alt="work photo">
+            <div class="works flex flex-col gap-5">
+                <div class="box flex rounded border-2 border-white border-solid gap-5 p-8">
+                    <div class="counter-image">
+                        <img src="images/work-steps-1.png" alt="works photo">
+                    </div>
+                    <div class="text">
+                        <h2>business analysis</h2>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                        Enim nesciunt obcaecati quisquam quis laborum recusandae debitis ve</p>
+                    </div>
+                </div>
+
+                <div class="box flex rounded border-2 border-white border-solid gap-5 p-8">
+                    <div class="counter-image">
+                        <img src="images/work-steps-2.png" alt="works photo">
+                    </div>
+                    <div class="text">
+                        <h2>architecture</h2>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                        Enim nesciunt obcaecati quisquam quis laborum recusandae debitis ve</p>
+                    </div>
+                </div>
+
+                <div class="box flex rounded border-2 border-white border-solid gap-5 p-8">
+                    <div class="counter-image">
+                        <img src="images/work-steps-3.png" alt="works photo">
+                    </div>
+                    <div class="text">
+                        <h2>developement</h2>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                        Enim nesciunt obcaecati quisquam quis laborum recusandae debitis ve</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Work -->
+
+    <!-- Start Event -->
+    <section class="event bg-white" id="event">
+        <div class="main-heading">latest events</div>
+        <div class="contain flex flex-col gap-16">
+            <div class="title flex gap-4">
+                <div class="image">
+                    <img src="images/events.png" alt="event photo">
+                </div>
+                <div class="two flex flex-col gap-4 items-center justify-center">
+                    <div class="counter flex gap-1 justify-center items-center w-full">
+                        <div class="box flex flex-col rounded-md">
+                            <h2 class="day">138</h2>
+                            <hr>
+                            <p>days</p>
+                        </div> 
+    
+                        <div class="box flex flex-col rounded-md">
+                            <h2 class="hour">13</h2>
+                            <hr>
+                            <p>hours</p>
+                        </div>
+    
+                        <div class="box flex flex-col rounded-md">
+                            <h2 class="minute">02</h2>
+                            <hr>
+                            <p>minutes</p>
+                        </div>
+    
+                        <div class="box flex flex-col rounded-md">
+                            <h2 class="second">60</h2>
+                            <hr>
+                            <p>seconds</p>
+                        </div>
+                    </div>
+                    <div class="text">
+                        <h2>tech masters event 2022</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et vero tenetur doloremque iusto ut adipisci
+                            quam ratione aliquam excepturi nulla in harum, veritatis porro</p>
+                    </div>
+                </div>
+            </div>
+            <form>
+                <input type="email" name="email" id="email" placeholder="enter your email">
+                <input type="submit" name="submit" id="submit" value="subscribe">
+            </form>
+        </div>
+    </section>
+    <!-- End Event -->
+
+    <!-- Start Pricing -->
+    <section class="pricing" id="pricing">
+        <div class="main-heading">pricing plans</div>
+        <div class="contain flex flex-wrap justify-between items-center">
+            <div class="box bg-white">
+                <div class="title">
+                    <h2 class="capitalize">basic</h2>
+                    <div class="image">
+                        <img src="images/hosting-basic.png" alt="hosting photo">
+                    </div>
+                    <h3>$15</h3>
+                    <p>per month</p>
+                </div>
+                <ul>
+                    <hr>
+                    <li>10GB HDD Space</li>
+                    <hr>
+                    <li>5 Email Addresses</li>
+                    <hr>
+                    <li>2 Subdomains</li>
+                    <hr>
+                    <li>4 Databases</li>
+                    <hr>
+                    <li>Basic Support</li>
+                </ul>
+                <div class="option">
+                    <button>choose plan</button>
+                </div>
+            </div>
+
+            <div class="box bg-white">
+                <div class="title">
+                    <h2 class="capitalize">advanced</h2>
+                    <div class="image">
+                        <img src="images/hosting-basic.png" alt="hosting photo">
+                    </div>
+                    <h3>$25</h3>
+                    <p>per month</p>
+                </div>
+                <ul>
+                    <hr>
+                    <li>20GB HDD Space</li>
+                    <hr>
+                    <li>10 Email Addresses</li>
+                    <hr>
+                    <li>5 Subdomains</li>
+                    <hr>
+                    <li>8 Databases</li>
+                    <hr>
+                    <li>Advanced Support</li>
+                </ul>
+                <div class="option">
+                    <button>choose plan</button>
+                </div>
+            </div>
+
+            <div class="box bg-white">
+                <div class="title">
+                    <h2 class="capitalize">professional</h2>
+                    <div class="image">
+                        <img src="images/hosting-basic.png" alt="hosting photo">
+                    </div>
+                    <h3>$45</h3>
+                    <p>per month</p>
+                </div>
+                <ul>
+                    <hr>
+                    <li>50GB HDD Space</li>
+                    <hr>
+                    <li>20 Email Addresses</li>
+                    <hr>
+                    <li>10 Subdomains</li>
+                    <hr>
+                    <li>20 Databases</li>
+                    <hr>
+                    <li>Professional Support</li>
+                </ul>
+                <div class="option">
+                    <button>choose plan</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Pricing -->
+
+    <!-- Start Videos -->
+    <section class="videos bg-white" id="videos">
+        <div class="main-heading">top videos</div>
+        <div class="contain">
+            <div class="view">
+                <div class="list">
+                    <div class="title">
+                        <h2>top videos</h2>
+                        <i class="fas fa-random"></i>
+                    </div>
+                    <ul>
+                        <li>
+                            <h2>How To Create Sub Domain</h2>
+                            <p>05:18</p>
+                        </li>
+                        <li>
+                            <h2>Playing With The DNS</h2>
+                            <p>03:18</p>
+                        </li>
+                        <li>
+                            <h2>Everything About The Virtual Hosts</h2>
+                            <p>05:25</p>
+                        </li>
+                        <li>
+                            <h2>How To Monitor Your Website</h2>
+                            <p>04:16</p>
+                        </li>
+                        <li>
+                            <h2>Uncharted Beating The Last Boss</h2>
+                            <p>07:48</p>
+                        </li>
+                        <li>
+                            <h2>Ys Oath In Felghana Overview</h2>
+                            <p>03:12</p>
+                        </li>
+                        <li>
+                            <h2>Ys Series All Games Ending</h2>
+                            <p>08:10</p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="preview">
+                    <div class="iamge">
+                        <img src="images/video-preview.jpg" alt="video preview photo">
+                    </div>
+                    <p>Everything About The Virtual Hosts</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Videos -->
+
+    <!-- Start Stats -->
+    <section class="stats" id="stats">
+        <div class="heading">our awesome stats</div>
+        <div class="contain">
+            <div class="box">
+                <i class="far fa-user fa-2x fa-fw"></i>
+                <h2>150</h2>
+                <p>cilents</p>
+            </div>
+
+            <div class="box">
+                <i class="fas fa-code fa-2x fa-fw"></i>
+                <h2>135</h2>
+                <p>projects</p>
+            </div>
+
+            <div class="box">
+                <i class="fas fa-globe-asia fa-2x fa-fw"></i>
+                <h2>50</h2>
+                <p>countries</p>
+            </div>
+
+            <div class="box">
+                <i class="far fa-money-bill-alt fa-2x fa-fw"></i>
+                <h2>500</h2>
+                <p>money</p>
+            </div>
+        </div>
+    </section>
+    <!-- End Stats -->
+
+    <!-- Start Discount -->
+    <section class="discount flex" id="discount">
+        <div class="image">
+            <div class="contain">
+                <h2>We Have A Discount</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Excepturi asperiores consectetur, recusandae ratione provident necessitatibus, cumque delectus commodi fuga praesentium beatae. 
+                Totam vel similique laborum dicta aperiam odit doloribus corporis.</p>
+                <img src="images/discount.png" alt="discount photo">
+            </div>
+        </div>
+        <div class="form">
+            <h2>Request A Discount</h2>
+            <form>
+                <input type="text" name="text" placeholder="your name">
+                <input type="email" name="email" placeholder="your email">
+                <input type="tel" name="tel" placeholder="your number">
+                <textarea name="message" placeholder="tell us about your need"></textarea>
+                <input type="submit" value="send">
+            </form>
+        </div>
+    </section>
+    <!-- End Discount -->
+
+    <!-- Start Footer -->
+    <footer class="footer">
+        <div class="contain">
+            <div class="title">
+                <h2>games</h2>
+                <div class="icon">
+                    <i class="fab fa-facebook-f"></i>
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-youtube"></i>
+                </div>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+                Temporibus nulla rem, dignissimos iste aspernatur</p>
+            </div>
+            <ul class="links">
+                <li> <i class="fas fa-angle-double-down fa-2x"></i>
+                    important link 1</li>
+                <li><i class="fas fa-angle-double-down fa-2x"></i>
+                    important link 2</li>
+                <li><i class="fas fa-angle-double-down fa-2x"></i>
+                    important link 3</li>
+                <li><i class="fas fa-angle-double-down fa-2x"></i>
+                    important link 4</li>
+                <li><i class="fas fa-angle-double-down fa-2x"></i>
+                    important link 5</li>
+            </ul>
+            <ul class="address">
+                <li>
+                    <i class="fas fa-map-marker-alt fa-fw"></i>
+                    <p>Egypt, Giza, Inside The Sphinx, Room Number 220</p>
+                </li>
+                <li>
+                    <i class="far fa-clock fa-fw"></i>
+                    <p>Business Hours: From 10:00 To 18:00</p>
+                </li>
+                <li>
+                    <i class="fas fa-phone-volume fa-fw"></i>
+                    <p>
+                        <span>+20123456789</span>
+                        <br>
+                        <span>+20198765432</span>
+                    </p>
+                </li>
+            </ul>
+            <div class="photos">
+                <div class="box">
+                    <img src="images/gallery-01.png" alt="gallery photo">
+                </div>
+    
+                <div class="box">
+                    <img src="images/gallery-02.png" alt="gallery photo">
+                </div>
+    
+                <div class="box">
+                    <img src="images/gallery-03.jpg" alt="gallery photo">
+                </div>
+    
+                <div class="box">
+                    <img src="images/gallery-04.png" alt="gallery photo">
+                </div>
+    
+                <div class="box">
+                    <img src="images/gallery-05.jpg" alt="gallery photo">
+                </div>
+    
+                <div class="box">
+                    <img src="images/gallery-06.png" alt="gallery photo">
+                </div>
+            </div>
+        </div>
+        <div class="copyright flex justify-center items-center p-5 capitalize">
+            <p class="text-white text-lg">made with <span class="text-xl">&heartsuit;</span> by mez</p>
+        </div>
+    </footer>
+    <!-- End Footer -->
+    <script src="main.js"></script>
+</body>
+</html>

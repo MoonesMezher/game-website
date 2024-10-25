@@ -1,0 +1,226 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* MIN */
+
+@media (min-width: 660px) {
+    .pricing .contain .box {
+        flex-basis: 45%;
+    }
+}
+@media (min-width: 600px) {
+    section {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+    .gallery .gallery-box .box {
+        flex-basis: 45%;
+        margin-left: 0;
+    }
+    .stats .contain .box {
+        flex-basis: 48%;
+    }
+    .footer .photos .box {
+        flex-basis: 45%;
+        margin-left: 0;
+    }
+    .footer .title {
+        flex-basis: 45%;
+        text-align: left;
+    }
+    .footer .links {
+        flex-basis: 45%;
+    }
+    .footer .address {
+        flex-basis: 45%;
+        text-align: left;
+    }
+    .footer .photos {
+        flex-basis: 45%;
+    }
+}
+@media (min-width: 767px) {
+    .articles .article-box .box {
+        flex-basis: 45%;
+    }
+    .features .features-gallery .box {
+        flex-basis: 48%;
+    }
+    .testimonials .testimonials-box .box {
+        flex-basis: 45%;
+    }
+    .testimonials .testimonials-box .box {
+        flex-basis: 30%;
+    }
+    .team .members {
+        padding: 80px 10px 40px;
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+        gap: 30px;
+    }
+    .services .contain .box {
+        flex-basis: 45%;
+    }
+    .work .contain .works,
+    .work .contain img {
+        flex-basis: 80%;
+        margin: 0 auto;
+        text-align: left;
+    }
+    .work .contain .works .box {
+        flex-direction: row;
+    }
+    .stats .contain .box {
+        flex-basis: 31%;
+    }
+}
+@media (min-width: 1024px) {
+    .articles .article-box .box {
+        flex-basis: 22%;
+    }
+    .features .features-gallery .box {
+        flex-basis: 31%;
+    }
+    .gallery .gallery-box .box {
+        flex-basis: 30%;
+        margin-left: 0;
+    }
+    .team .members {
+        padding: 80px 15px 40px;
+    }
+    .services .contain .box {
+        flex-basis: 31%;
+    } 
+    .stats .contain .box {
+        flex-basis: 23%;
+    }
+    .footer .contain {
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+    .footer .photos .box {
+        flex-basis: 30%;
+        margin-left: 0;
+    }
+    .footer .title {
+        flex-basis: 21%;
+    }
+    .footer .links {
+        flex-basis: 21%;
+    }
+    .footer .address {
+        flex-basis: 21%;
+    }
+    .footer .photos {
+        flex-basis: 21%;
+    }
+}
+@media (min-width: 1170px) {
+    .work .contain .works,
+    .work .contain img {
+        flex-basis: 45%;
+    }
+}
+@media (min-width: 1200px) {
+    .pricing .contain .box {
+        flex-basis: 31%;
+    }
+    .pricing .contain .box:nth-child(2) {
+        transform: translateY(-20px);
+    }
+}
+
+/* MAX */
+
+@media (max-width: 400px) {
+    .event .contain form {
+        padding: 10px 20px;
+    }
+    .event .contain form input {
+        padding: 10px;
+        font-size: 0.7rem;
+    }
+}
+@media (max-width: 600px) {
+    .discount .form form {
+        width: 96%;
+    }
+    .discount .form h2,
+    .discount .image .contain h2 {
+        font-size: 1.8rem;
+    }
+    .footer .title .icon {
+        width: fit-content;
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .footer .address {
+        gap: 15px;
+        margin-left: 10px;
+    }
+}
+@media (max-width: 767px) {
+    .contain {
+        padding: 80px 16px 40px;
+    }
+    .landing div {
+        width: 100%;
+        text-align: center;
+    }
+    .landing img {
+        width: 100%;
+    }
+    .event .contain form {
+        border-radius: 0px;
+        width: 100%;
+    }
+    .event .contain form input {
+        border-radius: 0px;
+    }
+    .event .contain form input[type="email"] {
+        flex-grow: 1;
+    }
+}
+@media (max-width: 990px) {
+    .our-skills .contain {
+        flex-basis: 100%;
+    }
+    .our-skills .contain img {
+        display: none;
+    }
+    .event .contain .title .image {
+        display: none;
+    }
+    .event .contain .title .two {
+        flex-basis: 100%;
+    }
+    .videos .view {
+        flex-direction: col;
+    } 
+    .videos .contain .list {
+        flex-basis: 100%;
+        width: 100%;
+    }
+    .videos .contain .preview {
+        width: 100%;
+    }
+    .discount {
+        flex-direction: column;
+    }
+    .discount .image,
+    .discount .image .form {
+        flex-basis: 100%;
+    }
+}
+@media (max-width: 1024px) {
+    .footer .photos {
+        display: none;
+    }
+    .footer .title,
+    .footer .address,
+    .footer .links {
+        margin-bottom: 40px;
+    }
+}
